@@ -105,10 +105,19 @@ describe('mathIsHard', () => {
 // then I want to cube that number
 
 const mathIsHard = (array) => {
-  return array.reduce((accumulator, number) =>
+  return array.map()
+  
+  reduce((accumulator, number) =>
   ( number + accumulator) 
   )
 }
+// const mathIsHard = (array) => {
+//   return array.map(function (x) {
+//     return Math.pow(x, 3).reduce((accumulator, number) =>
+//     ( number + accumulator) 
+//     )
+//   })
+// }
 // tried number.cube(3)
 // found out that I need to cube the number first then get the sum
 //output failed 
