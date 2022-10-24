@@ -18,7 +18,7 @@ class BlogPostsController < ApplicationController
     @post = BlogPost.find(params[:id])
   end
 
-  # ---4) New is a restful route that users can add information to on the app, which will then add it to the database. You also have to have a .erb file.
+  # ---4) New is a restful route that users can add information to on the app which will go into a box, which will then add it to the database. You also have to have a .erb file.
   def new
     @post = BlogPost.new
   end
